@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- normalize all elements -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game Warrior template</title>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="flex">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <nav>
+                    <a href="#" class="bars-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </a>
+                    <ul id="nav-menu-container">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">games</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">forums</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+                <button class="login">login / register</button>
+            </div>
+        </div>
+    </header>
+    <!-- slider section -->
+    <section class="slider">
+        <div class="slides fade">
+            <img src="images/slider-4.jpg" alt="slider-1">
+                <div class="slide-content">
+                <h1 class="text-live">The Best Games Out There.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada
+                    lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.
+                    Suspendisse cursus faucibus finibus.</p>
+                    <button class="slide-btn">read more</button>
+               </div>
+            </div>
+            <div class="slides fade">
+                <img src="images/slider-3.jpg" alt="slider-2">
+                    <div class="slide-content">
+                        <h1 class="text-live">The Best Games Out There.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada
+                        lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.
+                        Suspendisse cursus faucibus finibus.</p>
+                        <button class="slide-btn">read more</button>
+                   </div>
+        </div>
+        <div class="slides fade">
+            <img src="images/slider-2.jpg" alt="slider-3">
+                <div class="slide-content">
+                <h1 class="text-live">The Best Games Out There.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada
+                    lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.
+                    Suspendisse cursus faucibus finibus.</p>
+                    <button class="slide-btn">read more</button>
+               </div>
+         </div>
+         <div class="slides fade">
+            <img src="images/slider-1.jpg" alt="slider-4">
+                <div class="slide-content">
+                <h1 class="text-live">The Best Games Out There.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada
+                    lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.
+                    Suspendisse cursus faucibus finibus.</p>
+                    <button class="slide-btn">read more</button>
+               </div>
+         </div>
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    <!-- latest section -->
+    <div class="latest">
+        <div class="latest-title">Latest News</div>
+        <div class="latest-content">
+        <div class="latest-desc">
+            <span>new</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="latest-desc">
+           <span>strategy</span>
+           <p>isum dolor sit amet, consectetur adipiscing elit.</p>
+       </div>
+     </div>
+    </div>
+    <!-- games section -->
+    <section class="games">
+        <div class="container">
+            <div class="games-content">
+                <div class="games-item" data="new">
+                    <div class="overlay"></div>
+                    <h2 class="games-item-title">Suspendisse ut justo tem por, rutrum</h2>
+                    <p class="games-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="games-item-comment">3 Comments</span>
+                </div>
+                <div class="games-item" data="strategy">
+                    <div class="overlay"></div>
+                    <h2 class="games-item-title">Justo tempor, rutrum erat id, molestie</h2>
+                    <p class="games-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="games-item-comment">5 Comments</span>
+                </div>
+                <div class="games-item" data="advenure">
+                    <div class="overlay"></div>
+                    <h2 class="games-item-title">Nullam lacinia ex eleifend orci </h2>
+                    <p class="games-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="games-item-comment">10 Comments</span>
+                </div>
+                <div class="games-item" data="racing">
+                    <div class="overlay"></div>
+                    <h2 class="games-item-title">Lacinia ex eleifend orci suscipit</h2>
+                    <p class="games-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="games-item-comment">15 Comments</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- recent section -->
+    <section class="recent">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-head-title">new</span>
+                <h1>recent games</h1>
+                <span class="line"></span>
+            </div>
+            <div class="recent-content">
+                <div class="recent-item" data = "new">
+                    <img src="images/recent-game/1.jpg" alt="image1">
+                    <h2 class="recent-item-title">Suspendisse ut justo tem por, rutrum</h2>
+                    <p class="recent-item-desc">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit.</p>
+                    <div class="recent-item-details">
+                        <span class="recent-item-comment">3 Comments</span>
+                        <div class="icons">
+                            <i class="fa fa-heart"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-item" data = "racing">
+                    <img src="images/recent-game/2.jpg" alt="image2">
+                    <h2 class="recent-item-title">Susce pulvinar metus nulla, vel facilisis</h2>
+                    <p class="recent-item-desc">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit.</p>
+                    <div class="recent-item-details">
+                        <span class="recent-item-comment">5 Comments</span>
+                        <div class="icons">
+                            <i class="fa fa-heart"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-item" data = "advenure">
+                    <img src="images/recent-game/3.jpg" alt="image3">
+                    <h2 class="recent-item-title">Susce pulvinar metus nulla, vel facilisis</h2>
+                    <p class="recent-item-desc">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit amet, consectetur elit.</p>
+                    <div class="recent-item-details">
+                        <span class="recent-item-comment">10 Comments</span>
+                        <div class="icons">
+                            <i class="fa fa-heart"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- society section -->
+    <section class="society">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-head-title">new</span>
+                <h1>Society Reviews</h1>
+                <span class="line"></span>
+            </div>
+            <div class="society-content">
+                <div class="society-item">
+                    <div class="society-accordion">
+                        the first game
+                    </div>
+                    <div class="society-details">
+                            <img src="images/recent-game/1.jpg" alt="">
+                            <h3 class ="game-title">nova 3</h3>
+                            <span class="rate" num = "70%"></span>
+                    </div>
+                </div>
+                <div class="society-item">
+                    <div class="society-accordion">
+                        the second game
+                    </div>
+                    <div class="society-details">
+                            <img src="images/recent-game/4.jpg" alt="">
+                            <h3 class ="game-title">zoombies</h3>
+                            <span class="rate" num = "50%"></span>
+                    </div>
+                </div>
+                <div class="society-item">
+                    <div class="society-accordion">
+                        the third game
+                    </div>
+                    <div class="society-details">
+                            <img src="images/recent-game/5.jpg" alt="">
+                            <h3 class ="game-title">war monster</h3>
+                            <span class="rate" num = "30%"></span>
+                    </div>
+                </div>
+                <div class="society-item">
+                    <div class="society-accordion">
+                        the fourth game
+                    </div>
+                    <div class="society-details">
+                            <img src="images/recent-game/6.jpg" alt="">
+                            <h3 class ="game-title">fast racing</h3>
+                            <span class="rate" num = "60%"></span>
+                    </div>
+                </div>
+                <div class="society-item">
+                    <div class="society-accordion">
+                        the fifth game
+                    </div>
+                    <div class="society-details">
+                            <img src="images/recent-game/7.jpg" alt="">
+                            <h3 class ="game-title">pupg</h3>
+                            <span class="rate" num = "20%"></span>
+                    </div>
+                </div>
+                <div class="society-item">
+                    <div class="society-accordion">
+                        the sixth game
+                    </div>
+                    <div class="society-details">
+                            <img src="images/recent-game/8.jpg" alt="">
+                            <h3 class ="game-title">dragons</h3>
+                            <span class="rate" num = "80%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tournament section -->
+    <section class="tournament">
+        <div class="container">
+            <div class="tournament-content">
+                <div class="tournament-item" dt1 = "PREMIUM TOURNAMENT" dt2 = "TOURNAMENTS">
+                    <img src="images/tournament/1.jpg" alt="tour-img">
+                    <div class="tournament-details">
+                        <h2 class="tournament-details">World Of WarCraft</h2>
+                        <ul>
+                            <li><span>Tournament Beggins:</span> June 20, 2018</li>
+                            <li><span>Tounament Ends:</span> July 01, 2018</li>
+                            <li><span>Participants:</span> 10 teams</li>
+                            <li><span>Tournament Author:</span> Admin</li>
+                        </ul>
+                        <p><span>Prizes:</span> 1st place $2000, 2nd place: $1000, 3rd place: $500</p>
+                    </div>
+                </div>
+                <div class="tournament-item" dt1 = "PREMIUM TOURNAMENT">
+                    <img src="images/tournament/2.jpg" alt="tour2-img">
+                    <div class="tournament-details">
+                        <h2 class="tournament-details">DOOM</h2>
+                        <ul>
+                            <li><span>Tournament Beggins:</span> March 15, 2019</li>
+                            <li><span>Tounament Ends:</span> August 01, 2020</li>
+                            <li><span>Participants:</span> 12 teams</li>
+                            <li><span>Tournament Author:</span> Moderator</li>
+                        </ul>
+                        <p><span>Prizes:</span> 2st place $1000, 2nd place: $500, 3rd place: $200</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- reviews section -->
+    <section class="reviews">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-head-title">new</span>
+                <h1>Recent Views</h1>
+                <span class="line"></span>
+            </div>
+            <div class="reviews-content">
+                <div class="reviews-item" rt= "9.3">
+                    <img src="images/review/1.jpg" alt="review1">
+                    <h3 class="reviews-item-title">Assasin’’s Creed</h3>
+                    <p class="reviews-item-desc">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                </div>
+                <div class="reviews-item" rt= "9.5">
+                    <img src="images/review/2.jpg" alt="review2">
+                    <h3 class="reviews-item-title">Doom</h3>
+                    <p class="reviews-item-desc">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                </div>
+                <div class="reviews-item" rt= "9.1">
+                    <img src="images/review/3.jpg" alt="review3">
+                    <h3 class="reviews-item-title">Overwatch</h3>
+                    <p class="reviews-item-desc">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                </div>
+                <div class="reviews-item" rt= "9.7">
+                    <img src="images/review/4.jpg" alt="review4">
+                    <h3 class="reviews-item-title">GTA</h3>
+                    <p class="reviews-item-desc">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- posts section -->
+    <section class="posts">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-head-title">new</span>
+                <h1>people posts</h1>
+                <span class="line"></span>
+            </div>
+            <div class="posts-content">
+                <div class="posts-logo">
+                    <img src="images/footer-logo.png" alt="footer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                    <img src="images/footer-top-bg.png" alt="footer img">
+                </div>
+                <div class="posts-item one">
+                    <h2 class="posts-item-title">Latest Posts</h2>
+                    <div class="posts-item-con">
+                        <img src="images/latest-blog/1.jpg" alt="blog">
+                        <div class="posts-item-con-desc">
+                            <span class="posts-date">June 21, 2018</span>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <span class="posts-owner">
+                                by admin
+                            </span>
+                        </div>
+                    </div>
+                    <div class="posts-item-con">
+                        <img src="images/latest-blog/2.jpg" alt="blog">
+                        <div class="posts-item-con-desc">
+                            <span class="posts-date">March 13, 2019</span>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <span class="posts-owner">
+                                by moderator
+                            </span>
+                        </div>
+                    </div>
+                    <div class="posts-item-con">
+                        <img src="images/latest-blog/3.jpg" alt="blog">
+                        <div class="posts-item-con-desc">
+                            <span class="posts-date">April 20, 2020</span>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <span class="posts-owner">
+                                by eng
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts-item two">
+                    <h2 class="posts-item-title">Top Comments</h2>
+                    <div class="posts-item-con">
+                        <img src="images/authors/1.jpg" alt="author">
+                        <div class="posts-item-con-desc">
+                            <p> <span class="author">James Smith </span> <span class="word">on </span>Lorem ipsum dolor sit amet</p>
+                            <span class="posts-date">June 21, 2018</span>
+                        </div>
+                    </div>
+                    <div class="posts-item-con">
+                        <img src="images/authors/2.jpg" alt="author">
+                        <div class="posts-item-con-desc">
+                            <p> <span class="author">John Doe</span> <span class="word">on </span>Lorem ipsum dolor sit amet</p>
+                            <span class="posts-date">July 21, 2019</span>
+                        </div>
+                    </div>
+                    <div class="posts-item-con">
+                        <img src="images/authors/3.jpg" alt="author">
+                        <div class="posts-item-con-desc">
+                            <p> <span class="author">Michel Wagie</span> <span class="word">on </span>Lorem ipsum dolor sit amet</p>
+                            <span class="posts-date">May 5, 2019</span>
+                        </div>
+                    </div>
+                    <div class="posts-item-con">
+                        <img src="images/authors/4.jpg" alt="author">
+                        <div class="posts-item-con-desc">
+                            <p> <span class="author">Mark Vent</span> <span class="word">on </span>Lorem ipsum dolor sit amet</p>
+                            <span class="posts-date">January 14, 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>Copyright &copy; 2021 All rights reserved | This template is made with by <a href="#">Colorlib</a></p>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="">home</a></li>
+                    <li><a href="">games</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">forums</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
